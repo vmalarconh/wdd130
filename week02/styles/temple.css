@@ -1,0 +1,35 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
