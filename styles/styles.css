@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --img-width: 150px;
@@ -45,12 +51,15 @@ main img {
 }
 
 aside {
-    width: 300px;
     margin: 20px;
-    border: 2px solid var(--border-color);
-    padding: 2px;
-    background-color: var(--border-color);
-    color: white;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: beige;
 }
 
 aside img {
@@ -62,4 +71,17 @@ footer {
     margin-top: 20px;
     border-top: 1px solid var(--border-color);
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2px solid var(--border-color);
+    padding: 1rem;
+    background-color: bisque;
+    color: black;
+}
+
+.profile-img {
+    float: right;
 }
